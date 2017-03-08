@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="homepage no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="homepage no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="homepage no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <title>MyBook</title>
+
+    <!-- Prefetch DNS for external assets (Twitter widgets etc). -->
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//themes.googleusercontent.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto' rel='stylesheet' type='text/css'>
+    
+        <link rel="stylesheet" href="css/screen.css">
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- // <script src="../bower_components/modernizr/modernizr.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </head>
+<body id="top">
+
+
+
+
+
+
+
+	<header class="header-main">
+  <div class="justifize">
+    <div class="justifize__box">
+      
+  <a class="site-logo " href="">
+    <img alt="" src="images/logo.svg">
+  </a>
+
+
+    </div>
+    <div class="justifize__box">
+      <a href="#signin" class="js-openpopup btn-signin">
+        <span class="btn-signin__img">
+          <!-- <img src="images/user.jpg" alt=""> -->
+        </span>
+        <span class="btn-signin__text">Sign in</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+	<main>
+    <section class="hero">
+      <div class="tableize tableize--middle">
+        <div class="tableize__cell">
+          <div>
+            <div class="container">
+              <p>Be Your Own Hero!</p>
+              <h1>Let’s Make<br class="display-block-sm"> Your Story</h1>
+              <a href="#story" class="btn btn--primary btn--scroll-to">Make a story</a>
+              <a href="#secret" class="btn btn--primary btn--transparent js-openpopup">Our Secret</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <div class="scroll-down__wrap">
+          <span class="scroll-down__line"></span>
+          <span class="scroll-down__text">SCROLL DOWN</span>
+        </div>
+      </div>
+    </section>
+    <!-- /end .hero -->
+
+    <form action="" id="contact-form" method="post" novalidate>
+
+      <section id="story" class="story">
+        <div class="container">
+          <h2>Make Your Story</h2>
+
+            <div class="layout mb+">
+              <div class="layout__item large-and-up-1/2">
+                <!-- <div class="layout">
+                  <div class="layout__item large-and-up-2/5">
+                    <label>
+                      <p class="input-placeholder">Enter Childs Age</p>
+                      <input type="text" class="input input--primary">
+                    </label>
+                  </div>
+                  <div class="layout__item large-and-up-3/5">
+                    <p class="input-placeholder">Gender &amp; Skin</p>
+                    <select data-custom-class="select--skin">
+                      <option>White boy</option>
+                      <option>White girl</option>
+                      <option>Black boy</option>
+                      <option>Black girl</option>
+                    </select>
+                  </div>
+                </div> -->
+                <p class="input-placeholder">Chose Character</p>
+                <select data-custom-class="select--skin">
+                  <option>First boy</option>
+                  <option>First girl</option>
+                  <option>Second boy</option>
+                  <option>Second girl</option>
+                </select>
+              </div>
+              <div class="layout__item large-and-up-1/2">
+                <label>
+                  <p class="input-placeholder">Day and Month of Birth</p>
+                  <input type="text" class="input input--primary birthday" name="birthday" id="birthday" required>
+                </label>
+              </div>
+              <div class="layout__item large-and-up-1/2">
+                <label>
+                  <p class="input-placeholder">Enter Childs Name</p>
+                  <input type="text" class="input input--primary childs_name" name="name" id="name" required>
+                </label>
+              </div>
+              <div class="layout__item large-and-up-1/2">
+                <label>
+                  <p class="input-placeholder">Where was the Child Born?</p>
+                  <input type="text" class="input input--primary birthplace" name="birthplace" id="birthplace" required>
+                </label>
+              </div>
+              <div class="layout__item large-and-up-1/2">
+                <label>
+                  <p class="input-placeholder">Childs First Word</p>
+                  <input type="text" class="input input--primary first_word" name="first_word" id="first_word" required>
+                </label>
+              </div>
+              <div class="layout__item large-and-up-1/2">
+                <label>
+                  <p class="input-placeholder">Message from Parents / Auntie/ or Whoever You Are!</p>
+                  <input type="text" class="input input--primary special_message" name="message" id="message" required>
+                </label>
+                <!-- <select data-custom-class="select--color">
+                  <option>Blue</option>
+                  <option>Green</option>
+                  <option>Red</option>
+                  <option>Orange</option>
+                </select> -->
+              </div>
+            </div>
+            <div class="text-center">
+              <!-- <button class="btn btn--primary">SUBMIT</button> -->
+              <a href="#theme" class="btn btn--primary  btn--scroll-to">CHOOSE A THEME</a>
+            </div>
+          <!-- </form> -->
+        </div>
+      </section>
+      <!-- /end .story -->
+
+      <section class="theme" id="theme">
+        <div class="container">
+          <h2 class="color-dark">Choose Your Theme</h2>
+          <form action="some-action">
+            <div class="layout layout--center">
+              <div class="layout__item laptop-and-up-1/4 extralarge-and-up-1/3 large-and-up-1/2">
+                <div class="theme__item theme__item--green">
+                  <div class="radio">
+                    <input type="radio" id="r1" name="rr" class="radio__button"/>
+                    <label for="r1" class='radio__content'>
+                      <div class="radio__content-wrap">
+                        <span class="radio__img">
+                          <img src="images/theme-img4.png" alt="">
+                          
+  <svg role="img" class="icon icon-check">
+    <use xlink:href="icons/icons.svg#icon-check"></use>
+  </svg>
+
+                        </span>
+                        <p>Magic</p>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="layout__item laptop-and-up-1/4 extralarge-and-up-1/3 large-and-up-1/2">
+                <div class="theme__item theme__item--purple">
+                  <div class="radio">
+                    <input type="radio" id="r2" name="rr" class="radio__button" disabled/>
+                    <label for="r2" class='radio__content'>
+                      <div class="radio__content-wrap">
+                        <span class="radio__img">
+                          <img src="images/theme-img2.png" alt="">
+                          
+  <svg role="img" class="icon icon-check">
+    <use xlink:href="icons/icons.svg#icon-check"></use>
+  </svg>
+
+                        </span>
+                        <p>Space Adventure <br> Coming soon!</p>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="layout__item laptop-and-up-1/4 extralarge-and-up-1/3 large-and-up-1/2">
+                <div class="theme__item theme__item--pink">
+                  <div class="radio">
+                    <input type="radio" id="r3" name="rr" class="radio__button"/>
+                    <label for="r3" class='radio__content'>
+                      <div class="radio__content-wrap">
+                        <span class="radio__img">
+                          <img src="images/theme-img3.png" alt="">
+                          
+  <svg role="img" class="icon icon-check">
+    <use xlink:href="icons/icons.svg#icon-check"></use>
+  </svg>
+
+                        </span>
+                        <p>Princess Adventure</p>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="text-center large-and-up-pt++ vvpt+">
+              <a href="#title" class="btn btn--primary btn--dark btn--scroll-to">CHOOSE A TITLE</a>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- /end .theme -->
+
+      <section class="title" id="title">
+        <div class="container">
+          <h2>Choose A Title</h2>
+          <div class="layout layout--center">
+            <div class="layout__item laptop-and-up-1/2 extralarge-2/3">
+              <label class="animation-placeholder">
+                <input type="text" required='' class="input input--primary finds_magic title_input">
+                <span>Insert Name (Finds Magic)</span>
+              </label>
+              <label class="animation-placeholder">
+                <input type="text" required='' class="input input--primary custom_title title_input">
+                <span>Choose your own title</span>
+              </label>
+              <label class="animation-placeholder">
+                <input type="text" required='' class="input input--primary names_book title_input">
+                <span>Insert name’s Book</span>
+              </label>
+        <!--  <label class="animation-placeholder">
+                <input type="text" required='' class="input input--primary">
+                <span>A Wild Story to Remember</span>
+              </label> -->
+              <div class="text-center">
+                <button class="btn btn--primary btn--preview" type="submit">PREVIEW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /end .title -->
+
+    </form>
+
+    <section class="preview first_boy mfp-hide">
+      <div class="container">
+        <div class="layout layout--center">
+          <div class="layout__item laptop-and-up-2/3 1/1 bb-custom-wrapper">
+              <div id="bb-bookblock" class="bb-bookblock">
+
+                <div class="bb-item">
+                    <img src="images/first_boy/front_cover.jpg" alt="">
+                    <div class="book_input front_cover_name"></div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_0.jpg" alt="">
+                    <div class="book_input page_0_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_1-2.jpg" alt="">
+                    <div class="book_input page_1_name">[Please enter child's name]</div>
+                    <div class="book_input page_2_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_3-4.jpg" alt="">
+                    <div class="book_input page_3_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_5-6.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_7-8.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_9-10.jpg" alt="">
+                    <div class="book_input page_9_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_11-12.jpg" alt="">
+
+                    <div class="book_input page_12_name">[Please enter child's name]</div>
+                    <div class="book_input page_12_gender">she</div>
+                    <div class="book_input page_12_name2">[Please enter child's name]</div>
+                    <div class="book_input page_12_birthday">[Please enter child's birthday]</div>
+                    <div class="book_input page_12_city">[Please enter child's birthplace]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_13-14.jpg" alt="">
+                    <div class="book_input page_14_first_word">[Please enter child's first word]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_boy/pages_15-16.jpg" alt="">
+                    <div class="book_input page_16_message">[Please enter special message for child]</div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/first_boy/back_cover.jpg" alt="">
+                    <div class="book_input front_cover_name"></div>
+                </div>
+
+            </div>
+            <nav>
+                <a href="#" class="bb-nav-first">First page</a>
+                <a href="#" class="bb-nav-prev">Previous</a>
+                <a href="#" class="bb-nav-next">Next</a>
+                <a href="#" class="bb-nav-last">Last page</a>
+            </nav>
+            <div class="text-center pt">
+              <a href="" class="btn btn--primary">ORDER</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview first_girl mfp-hide">
+      <div class="container">
+        <div class="layout layout--center">
+          <div class="layout__item laptop-and-up-2/3 1/1 bb-custom-wrapper">
+              <div id="bb-bookblock" class="bb-bookblock">
+
+                <div class="bb-item">
+                    <img src="images/first_girl/front_cover.jpg" alt="">
+                    <div class="book_input front_cover_name">[Please enter book's name]</div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_0.jpg" alt="">
+                    <div class="book_input page_0_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_1-2.jpg" alt="">
+                    <div class="book_input page_1_name">[Please enter child's name]</div>
+                    <div class="book_input page_2_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_3-4.jpg" alt="">
+                    <div class="book_input page_3_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_5-6.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_7-8.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_9-10.jpg" alt="">
+                    <div class="book_input page_9_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_11-12.jpg" alt="">
+
+                    <div class="book_input page_12_name">[Please enter child's name]</div>
+                    <div class="book_input page_12_gender">she</div>
+                    <div class="book_input page_12_name2">[Please enter child's name]</div>
+                    <div class="book_input page_12_birthday">[Please enter child's birthday]</div>
+                    <div class="book_input page_12_city">[Please enter child's birthplace]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_13-14.jpg" alt="">
+                    <div class="book_input page_14_first_word">[Please enter child's first word]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/first_girl/pages_15-16.jpg" alt="">
+                    <div class="book_input page_16_message">[Please enter special message for child]</div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/first_girl/back_cover.jpg" alt="">
+                    <div class="book_input front_cover_name">[Please enter book's name]</div>
+                </div>
+
+            </div>
+            <nav>
+                <a href="#" class="bb-nav-first">First page</a>
+                <a href="#" class="bb-nav-prev">Previous</a>
+                <a href="#" class="bb-nav-next">Next</a>
+                <a href="#" class="bb-nav-last">Last page</a>
+            </nav>
+            <div class="text-center pt">
+              <a href="" class="btn btn--primary">ORDER</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.preview -->
+
+    <section class="preview second_boy mfp-hide">
+      <div class="container">
+        <div class="layout layout--center">
+          <div class="layout__item laptop-and-up-2/3 1/1 bb-custom-wrapper">
+              <div id="bb-bookblock" class="bb-bookblock">
+
+                <div class="bb-item">
+                    <img src="images/second_boy/front_cover.jpg" alt="">
+                    <div class="book_input front_cover_name">Hello dear</div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_0.jpg" alt="">
+                    <div class="book_input page_0_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_1-2.jpg" alt="">
+                    <div class="book_input page_1_name">[Please enter child's name]</div>
+                    <div class="book_input page_2_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_3-4.jpg" alt="">
+                    <div class="book_input page_3_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_5-6.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_7-8.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_9-10.jpg" alt="">
+                    <div class="book_input page_9_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_11-12.jpg" alt="">
+
+                    <div class="book_input page_12_name">[Please enter child's name]</div>
+                    <div class="book_input page_12_gender">she</div>
+                    <div class="book_input page_12_name2">[Please enter child's name]</div>
+                    <div class="book_input page_12_birthday">[Please enter child's birthday]</div>
+                    <div class="book_input page_12_city">[Please enter child's birthplace]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_13-14.jpg" alt="">
+                    <div class="book_input page_14_first_word">[Please enter child's first word]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_boy/pages_15-16.jpg" alt="">
+                    <div class="book_input page_16_message">[Please enter special message for child]</div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/second_boy/back_cover.jpg" alt="">
+                    <div class="book_input front_cover_name">[Please enter book's name]</div>
+                </div>
+
+            </div>
+            <nav>
+                <a href="#" class="bb-nav-first">First page</a>
+                <a href="#" class="bb-nav-prev">Previous</a>
+                <a href="#" class="bb-nav-next">Next</a>
+                <a href="#" class="bb-nav-last">Last page</a>
+            </nav>
+            <div class="text-center pt">
+              <a href="" class="btn btn--primary">ORDER</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview second_girl mfp-hide">
+      <div class="container">
+        <div class="layout layout--center">
+          <div class="layout__item laptop-and-up-2/3 1/1 bb-custom-wrapper">
+              <div id="bb-bookblock" class="bb-bookblock">
+
+                <div class="bb-item">
+                    <img src="images/second_girl/front_cover.jpg" alt="">
+                    <div class="book_input front_cover_name"></div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_0.jpg" alt="">
+                    <div class="book_input page_0_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_1-2.jpg" alt="">
+                    <div class="book_input page_1_name">[Please enter child's name]</div>
+                    <div class="book_input page_2_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_3-4.jpg" alt="">
+                    <div class="book_input page_3_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_5-6.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_7-8.jpg" alt="">
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_9-10.jpg" alt="">
+                    <div class="book_input page_9_name">[Please enter child's name]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_11-12.jpg" alt="">
+
+                    <div class="book_input page_12_name">[Please enter child's name]</div>
+                    <div class="book_input page_12_gender">she</div>
+                    <div class="book_input page_12_name2">[Please enter child's name]</div>
+                    <div class="book_input page_12_birthday">[Please enter child's birthday]</div>
+                    <div class="book_input page_12_city">[Please enter child's birthplace]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_13-14.jpg" alt="">
+                    <div class="book_input page_14_first_word">[Please enter child's first word]</div>
+                </div>
+                <div class="bb-item">
+                    <img src="images/second_girl/pages_15-16.jpg" alt="">
+                    <div class="book_input page_16_message">[Please enter special message for child]</div>
+                </div>
+
+                <div class="bb-item">
+                    <img src="images/second_girl/back_cover.jpg" alt="">
+                    <div class="book_input front_cover_name">[Please enter book's name]</div>
+                </div>
+
+            </div>
+            <nav>
+                <a href="#" class="bb-nav-first">First page</a>
+                <a href="#" class="bb-nav-prev">Previous</a>
+                <a href="#" class="bb-nav-next">Next</a>
+                <a href="#" class="bb-nav-last">Last page</a>
+            </nav>
+            <div class="text-center pt">
+              <a href="" class="btn btn--primary">ORDER</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="customers medium-and-up-pb0">
+      <div class="container">
+        <div class="layout layout--center layout--flush">
+          <div class="layout__item laptop-and-up-2/3 mb0">
+            <div class="customers__box">
+              <h2>Happy Customers</h2>
+              <div class="owl-carousel">
+                <div class="item">
+                  <div class="img-wrap">
+                    <img src="images/customer.png" alt="">
+                  </div>
+                  <h3>Sienna</h3>
+                  <p>It is time to make our own stories!</p>
+                </div>
+                <div class="item">
+                  <div class="img-wrap">
+                    <img src="images/customer.png" alt="">
+                  </div>
+                  <h3>Sienna</h3>
+                  <p>It is time to make our own stories!</p>
+                </div>
+                <div class="item">
+                  <div class="img-wrap">
+                    <img src="images/customer.png" alt="">
+                  </div>
+                  <h3>Sienna</h3>
+                  <p>It is time to make our own stories!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.customers -->
+
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>This is a prototype of Mybook! We are not live yet. <br> If receiving this book soon is really important to you, we will make it happen. <br> Please leave us a message and <span class="type-uppercase">thank you for making a child into a hero!</span></p>
+        <div class="layout layout--center">
+          <div class="layout__item laptop-and-up-1/2 extralarge-2/3">
+            <label class="animation-placeholder">
+              <input type="text" required='' class="input input--primary">
+              <span>Your Email</span>
+            </label>
+            <label class="animation-placeholder">
+              <input type="text" required='' class="input input--primary">
+              <span>Title of Message</span>
+            </label>
+            <label class="animation-placeholder">
+              <input type="text" required='' class="input input--primary">
+              <span>Your Text goes here</span>
+            </label>
+            <div class="text-center">
+              <a href="" class="btn btn--primary">SEND MESSAGE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /end .contact -->
+
+    <section class="contact-info">
+      <div class="container">
+        <h2>Contact Info</h2>
+        <div class="layout layout--center">
+          <div class="layout__item laptop-and-up-1/2 extralarge-2/3">
+            <div class="layout">
+              <div class="layout__item large-and-up-1/2">
+                <div class="contact-info__item">
+                  <img src="images/icon-building.svg" alt="">
+                  <h3>Adress</h3>
+                  <p>16B St. Epifaniou St. Strovolos</p>
+                  <p>Nicosia, 2055, Cyprus, Europe</p>
+                  <p>Planet Earth, Milky Way</p>
+                </div>
+              </div>
+              <div class="layout__item large-and-up-1/2">
+                <div class="contact-info__item">
+                  <img src="images/icon-phonebook.svg" alt="">
+                  <h3>Contact Info</h3>
+                  <p>+357 99 712285</p>
+                  <p class="mb"><a href="mailto:info@mybook.com">info@mybook.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /end .contact-info -->
+
+	</main>
+  <footer class="footer-main">
+  <div class="container">
+    <div class="justifize">
+      <div class="justifize__box">
+        <ul class="social">
+          <li>
+            <a href="">
+  <svg role="img" class="icon icon-facebook">
+    <use xlink:href="icons/icons.svg#icon-facebook"></use>
+  </svg>
+</a>
+          </li>
+          <li>
+            <a href="">
+  <svg role="img" class="icon icon-twitter">
+    <use xlink:href="icons/icons.svg#icon-twitter"></use>
+  </svg>
+</a>
+          </li>
+          <li>
+            <a href="">
+  <svg role="img" class="icon icon-google-plus">
+    <use xlink:href="icons/icons.svg#icon-google-plus"></use>
+  </svg>
+</a>
+          </li>
+        </ul>
+      </div>
+      <div class="justifize__box">
+        <a href="#top" class="back-to-top btn--scroll-to">
+          
+  <svg role="img" class="icon icon-arrow-top">
+    <use xlink:href="icons/icons.svg#icon-arrow-top"></use>
+  </svg>
+
+          
+  <svg role="img" class="icon icon-arrow-top-small">
+    <use xlink:href="icons/icons.svg#icon-arrow-top-small"></use>
+  </svg>
+
+          <span>Back To Top</span>
+        </a>
+      </div>
+      <div class="justifize__box">
+        <h2>MyBook</h2>
+        <small>Copyright &copy; My Book 2016.</small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <div id='signin' class="signin magnific-popup mfp-hide magnific-animate">
+  <h2>Sign In</h2>
+  <form action="some-action">
+    <a href="" class="btn btn--primary btn--facebook">SIGN IN WITH FACEBOOk</a>
+    <div class="or-separator"><span>or</span></div>
+    <input type="email" class="input input--primary input--border" placeholder="Email">
+    <input type="password" class="input input--primary input--border" placeholder="Pasword">
+    <div class="text-center pt">
+      <button class="btn btn--primary btn--dark mb">SIGN IN</button>
+      <a href="" class="forgot-password">Forgot your Pasword?</a>
+    </div>
+  </form>
+  <!-- <div class="mfp-close">
+  <svg role="img" class="icon icon-close">
+    <use xlink:href="icons/icons.svg#icon-close"></use>
+  </svg>
+</div> -->
+  <div class="mfp-close">
+  <svg role="img" class="icon icon-close">
+    <use xlink:href="icons/icons.svg#icon-close"></use>
+  </svg>
+</div>
+</div>
+
+	<div id='secret' class="secret magnific-popup mfp-hide magnific-animate">
+
+  <ol class="mb0 ml0 list-bare">
+    <li><strong>Our secret is that we want children to be their own heroes!</strong>
+      <ul>
+        <li><span>Boost your child’s confidence!</span> </li>
+        <li><span>Children learn faster and easier when they relate to the character!</span></li>
+      </ul>
+    </li>
+    <li><strong>Your own advice as a parent/guardian now forever saved and cherished in a book!</strong></li>
+  </ol>
+  <!-- <div class="mfp-close">
+  <svg role="img" class="icon icon-close">
+    <use xlink:href="icons/icons.svg#icon-close"></use>
+  </svg>
+</div> -->
+  <div class="mfp-close">
+  <svg role="img" class="icon icon-close">
+    <use xlink:href="icons/icons.svg#icon-close"></use>
+  </svg>
+</div>
+</div>
+
+
+
+
+<!--
+    <script src="js/svg4everybody.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/selectordie.min.js"></script>
+    <script src="js/jquery.bookblock.min.js"></script>
+-->
+
+
+    <script src="js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
+
