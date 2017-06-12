@@ -556,9 +556,8 @@ function brand_has_custom_header_img_class( $classes='' ) {
  * @since 1.6
  */
  if ( ! brand_addons_installed() ) {
-  function brand_print_site_info() { ?>
-    <a href="https://wordpress.org/" class="customize-unpreviewable">Â© MyBook Heroes 2017</a>
-    <span class="sep"> | </span>
+  function brand_print_site_info() { 
+
 		
   }
   add_action( 'brand_site_info', 'brand_print_site_info' );
@@ -624,3 +623,4 @@ function brand_post_listing_stile_class( $classes='' ) {
   }
   return $classes;
 }
+?>
